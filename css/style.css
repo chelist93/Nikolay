@@ -1,0 +1,39 @@
+* {
+    color: black;
+} 
+
+h2 {
+    color: aqua;
+}
+
+.subtitle {
+    color: chartreuse;
+}
+
+#heading {
+    color: darkgreen;
+}
+
+ul>li {
+    color: cornflowerblue;
+}
+
+li span {
+    color: darkgoldenrod;
+}
+
+[text] {
+    color: crimson;
+}
+
+footer ul li {
+    color: tomato;
+}
+
+.adress {
+    color: slateblue;
+}
+
+label {
+    color: dodgerblue;
+}

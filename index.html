@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Селекторы</title>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>Описание селекторов</h1>
+     <ol>
+        <li>* - универсальный селектор, относящийся ко всем элементам на странице</li>
+        <li>.subtitle - селектор "class" может использоваться для выбора нескольких элементов на странице</li>
+        <li>#container - данный символ является идентификатором элемента "id"</li>
+        <li>a > b - дочерний селектор, позволяющий обращаться к стилю элементов, являющихся прямыми потомками</li>
+        <li>a + b - соседний селектор поможет выбрать элемент следующий за указанным элементом</li>
+        <li>ul ~ p - родственный селектор выберет все элементы "р" находящиеся ниже элемента "ul"</li>
+        <li>a[title] - даёт возможность задать стили к элементам с основой  в виде имени атрибута или значения атрибута</li>
+        <li>div:hover - позволяет изменить стиль элемента наводя на него курсором мыши</li>
+     </ol>
+         <div>
+            <h2>1 element</h2>
+            <p class="subtitle">2 element</p>
+            <p id="heading">3 element</p>
+            <ul>
+                <li>4 element</li>
+            </ul>
+            <ol>
+                <li><span>5 element</span></li>
+            </ol>   
+            <input type="text">
+            <p>
+                <label>6 element</label>
+                <input type="text">
+            </p>
+            <footer>
+                <ul>
+                    <li>7 element</li>
+                </ul>
+            </footer>
+            <address class="adress">8 element</address>
+         </div>  
+</body>
+</html>
